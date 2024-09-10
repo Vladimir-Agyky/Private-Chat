@@ -17,7 +17,9 @@ pip install MODULE_NAME
 
 # In website
 <img width="1792" alt="스크린샷 2024-09-10 오전 8 33 52" src="https://github.com/user-attachments/assets/93de78ae-d05e-4172-b07b-c96255fd5b8e">
+
 Only entering "채팅방입장" will let you enter the chatting room
+
 "채팅방입장"을 입력해야만 채팅방으로 넘어갑니다
 
 # Other
