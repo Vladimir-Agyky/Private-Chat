@@ -11,6 +11,7 @@ pip install MODULE_NAME
 <img width="1355" alt="스크린샷 2024-09-10 오전 8 26 26" src="https://github.com/user-attachments/assets/e389bd05-5f93-4704-ab63-cfd579fa5fb0">
 2. Edit account infromation "PASSWORD": "USERNAME" <br/>
 2. 계정정보 수정 "비밀번호": "닉네임" <br/>
+<br/>
 3. Set admin <br/>
 3. 관리자 설정 <br/>
 
