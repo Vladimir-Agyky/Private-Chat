@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인 기록</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 500px;
+        }
+        h1 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        .login-record {
+            margin-bottom: 10px;
+        }
+        .timestamp {
+            color: #888;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>로그인 기록</h1>
+        <ul>
+            {% for login in logins %}
+            <li class="login-record">{{ login.username }}: {{ login.login_time.strftime('%Y-%m-%d %H:%M') }}</li>
+            {% endfor %}
+        </ul>
+        <a href="{{ url_for('chat') }}">채팅으로 돌아가기</a>
+    </div>
+</body>
+</html>
