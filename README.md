@@ -23,11 +23,11 @@ Only entering "채팅방입장" will let you enter the chatting room
 "채팅방입장"을 입력해야만 채팅방으로 넘어갑니다
 
 # Other
-Admin can delete all the DB for one click
-관리자는 클릭 한번으로 모든 DB를 삭제할 수 있습니다.
-
-What's in DB : Chatting log(Message, Messaged UTC time, Logged in history(Username, UTC Time)
-DB에 저장되는 목록 : 채팅로그(Message, Messaged UTC time, 로그인 기록(Username, UTC Time)
-
-Making new algorithm to encrypt the db with AES256
+Admin can delete all the DB for one click<br/>
+관리자는 클릭 한번으로 모든 DB를 삭제할 수 있습니다.<br/>
+<br/>
+What's in DB : Chatting log(Message, Messaged UTC time, Logged in history(Username, UTC Time)<br/>
+DB에 저장되는 목록 : 채팅로그(Message, Messaged UTC time, 로그인 기록(Username, UTC Time)<br/>
+<br/>
+Making new algorithm to encrypt the db with AES256<br/>
 AES256으로 암호화되는 DB 알고리즘 적용중
