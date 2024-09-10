@@ -9,11 +9,10 @@ Used module : Flask, flask_socketio, flask_sqlalchemy
 pip install MODULE_NAME
 ```
 <img width="1355" alt="스크린샷 2024-09-10 오전 8 26 26" src="https://github.com/user-attachments/assets/e389bd05-5f93-4704-ab63-cfd579fa5fb0">
-2. Edit account infromation "PASSWORD": "USERNAME"
-2. 계정정보 수정 "비밀번호": "닉네임"
-![Uploading 스크린샷 2024-09-10 오전 8.32.57.png…]()
-3. Set admin
-3. 관리자 설정
+2. Edit account infromation "PASSWORD": "USERNAME" <br/>
+2. 계정정보 수정 "비밀번호": "닉네임" <br/>
+3. Set admin <br/>
+3. 관리자 설정 <br/>
 
 # In website
 <img width="1792" alt="스크린샷 2024-09-10 오전 8 33 52" src="https://github.com/user-attachments/assets/93de78ae-d05e-4172-b07b-c96255fd5b8e">
