@@ -3,8 +3,8 @@ Used module : Flask, flask_socketio, flask_sqlalchemy<br/>
 사용된 모듈 : Flask, flask_socketio, flask_sqlalchemy
 
 # Instruction / 사용법
-1. Install modules<br/>
-1. 모듈을 설치하세요
+### Install modules & 모듈 설치
+
 ```
 pip install MODULE_NAME
 ```
